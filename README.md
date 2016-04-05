@@ -19,11 +19,11 @@ Hardware
 
 Espruino Pico wiring decribed below. Wires colors are referenced form the software part so it's important to use the same colors.
 
-I2C (Green)
-
-     B10    SCL     Yellow
-     B3     SDA     Blue
-     GND    GND     Black
+| I2C (Green)        |
+|--------------------|
+| B10 | SCL | Yellow |
+| B3  | SDA | Blue   |
+| GND | GND | Black  |
 
 SPI (Blue)
 
