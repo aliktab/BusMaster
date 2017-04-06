@@ -48,3 +48,44 @@ Espruino Pico wiring decribed below. Wires colors are referenced form the softwa
 | VCC | VCC       | White - 5v controllable |
 | GND | GND       | Black  |
 
+
+
+**2C (Green)**
+
+     B10    SCL       Yellow
+     B3     SDA       Blue
+     GND    GND       Black
+
+**SPI (Blue)**
+
+     B13    SCL       Yellow (SCLK)
+     B15    SDI       Blue (MOSI)
+     B14    SDO       Green (MISO)
+     GND    GND       Black
+
+     B5     CS        White
+     B4     IRQ       Gray
+
+**UART (Yellow)**
+
+     A8     CK        Yellow
+     B6     TX        Blue
+     B7     RX        Green
+     GND    GND       Black
+
+**GPIO (Red)**
+
+     B1     ADC/PWM   White
+     A7     ADC/PWM   Blue
+     A6     ADC/PWM   Green
+     A5     ADC/PWM   Yellow
+     GND    GND       Black
+
+**POWER (Black)**
+
+     VDD    VDD       Red - 3.3v
+     VCC    VCC       White - 5v controllable
+     GND    GND       Black
+
+
+
